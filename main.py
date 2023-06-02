@@ -17,7 +17,7 @@ import os
 
 
 env = {
-    **dotenv_values("/home/justsaveIt_insta_bot/.env.prod"),
+    **dotenv_values("/home/justsave_facebook_bot/.env.prod"),
     **dotenv_values(".env.prod"),
     **dotenv_values(".env.dev"),  # override
 }
